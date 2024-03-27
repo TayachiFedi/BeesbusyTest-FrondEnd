@@ -1,0 +1,162 @@
+   /* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.logo{
+  display: block;
+  font-size: 0;
+  width: 140px;
+  height: 54px;
+  background: url(https://www.beesbusy.com/wp-content/themes/beesbusy2k17/assets/prod/img/logo/logo.svg) center center no-repeat;
+  background-size: contain;
+  transition: none;
+}
+/* User Form */
+.user-form h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* User List */
+.user-list h2 {
+  color: #333;
+  margin: 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+li div {
+  margin-top: 10px;
+}
+
+/* Buttons */
+button {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.edit-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+  margin-left: 10px;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-link {
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.page-link:hover {
+  background-color: #0056b3;
+}
+.user-actions button {
+  margin-left: 10px;
+}
+
+.edit-btn {
+  background-color: #2dc3c4;
+  border-color: #2dc3c4;
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.delete-btn {
+  background-color: #f0705f;
+  border: 1px solid #f0705f;
+  border-radius: 50px;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.user-form h2 {
+  color: #2dc3c4;
+}
+
+.user-form input[type="text"],
+.user-form input[type="number"],
+.user-form select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.filters input[type="text"],
+.filters input[type="number"],
+.filters select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.user-form button.edit-btn {
+  width: 100%;
+  background-color: #2dc3c4;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.user-form div {
+  color: red;
+  margin-bottom: 15px;
+}
+
+
